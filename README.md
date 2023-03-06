@@ -9,7 +9,7 @@ You can test this automation by manually creating two playlists, A and B (put on
 
 ## Method to automate Smart Playlists
 1 Create one or more Smart Playlists that you wish to publish (these will be defined as "fromPlayList" in the first Shortcut Dictionary)
-2 Create corresponding regular playlist(s) and publish them in your edit setting in your Music user profile.  (these should be defined as "toPlayList" in the first shortcut's Dictionary)
+2 Create corresponding regular playlist(s) and publish them in your edit setting in your Music user profile (https://support.apple.com/guide/music/share-music-with-friends-mus140a2e93/mac).  These publicly shared playlists should be defined as "toPlayList" in the first shortcut's Dictionary.
 3 Create or copy the existing A-B test shortcut to pass one or more Dictionaries containing keys for "fromPlayList" and "toPlayList"
 4 Test the driver script (e.g., A-B tes) at least once by executing it and give it permission to invoke the worker script (asks only once)
 5 Set up a personal automation (in the Shortcuts app) on an iPhone or iPad that invokes the Dictionary script to run at some predetermined time and interval.  Allow the personal workflow to run when the device is locked.  It's optional to have this workflow notify the user that it has run.
