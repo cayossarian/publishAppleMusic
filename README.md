@@ -3,7 +3,7 @@
 ## Purpose
 These shortcuts provide a means to copy from one Apple Music playlist to another without creating duplicates in the target playlist.  Two scripts work together, the first shortcut defines a Dictionary containing keys and values for toPlayList and fromPlayList.  The first script may contain more than one Dictionary and invoke the worker script repeatedly.
 
-This functionality provides a means to automate the publishing of "Smart Playlists" by specifying songs from the source Smart Playlist and placing those songs in an existing regular playlist that is part of a user's music profile (published by Music and followed tby other users).  
+This functionality provides a means to automate the publishing of "Smart Playlists" by specifying songs from the source Smart Playlist and placing those songs in an existing regular playlist that is part of a user's music profile (published by Music and followed by other users).  
 
 You can test this automation by manually creating two playlists, A and B (put one or more songs in playlist A) and running the shortcut test A to B.  You can run this test repeatedly and only new songs that don't exist in B will be copied to B without duplicates.
 
