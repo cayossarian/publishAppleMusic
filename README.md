@@ -16,3 +16,4 @@ You can test this automation by manually creating two playlists, A and B (put on
 
 ## Performance
 Because there is no native Apple means to merge one playlist into another without duplicates, the script must look at every song in the source and try to match with a same song in the target playlist.  If the target is empty, the copy is quick.  If the source contains many entries the script takes considerably longer.  For example when the source has over a thousand songs and target is similarly populated, the script could take a minute or more depending on the speed of the device.  Since one is presumably running these on a schedule during off hours, performance should not be an issue.
+It's probably best to avoid adding multiple large playlists in one shortcut and instead set up multiple automations a few minutes apart to avoid timeouts. 
